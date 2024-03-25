@@ -2,7 +2,7 @@
 
 # Paths where scripts will be placed.
 logcmd_path="/usr/local/bin/logcmd"
-changePermissions_path="/usr/bin/logcmd"
+changePermissions_path="/usr/local/bin/changePermissions"
 storelogs_path="/usr/local/bin/storelogs"
 
 # Check if the scripts already exist.
