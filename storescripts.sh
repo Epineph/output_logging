@@ -21,11 +21,11 @@ if [[ ! -f "$logcmd_path" ]] || [[ ! -f "$storelogs_path" ]]; then
     sudo mv "$temp_clone_dir/logcmd.sh" "$logcmd_path"
     sudo mv "$temp_clone_dir/storelogs.sh" "$storelogs_path"
     sudo mv "$temp_clone_dir/changePermissions.sh" "$changePermissions_path"
-    sudo mv "$temp_clone_dir/buildFromSource.sh" "$changePermissions_path"
+    sudo mv "$temp_clone_dir/buildFromSource.sh" "$buildFromSource_path"
     sudo chmod +x "$logcmd_path"
     sudo chmod +x "$storelogs_path"
     sudo chmod +x "$changePermissions_path"
-    sudo chmod +x "$changePermissions_path"
+    sudo chmod +x "$buildFromSource_path"
     
     # Clean up the temporary clone directory.
     rm -rf "$temp_clone_dir"
